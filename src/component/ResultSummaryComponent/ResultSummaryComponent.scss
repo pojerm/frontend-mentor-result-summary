@@ -1,0 +1,54 @@
+// uvez varijabli
+@import './variables.scss';
+// uvezo font
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+// koristi se za cijeli result summary component
+  .result-summary-component-block-mobile {
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+
+
+
+  // block styles
+
+  .result-summary-component-block-mobile {
+    width: 37.5rem;
+  }
+// summary block to nam treba
+.summary-block {
+  margin-inline: 3rem;
+}
+
+.result-summary {
+  background: linear-gradient(360deg, $light-royal-blue-background 0%, $light-slate-blue-background 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  width: 38rem;
+
+}
+
+@media (min-width: 1024px) {
+  .summary-block {
+    display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+  }
+  .result-summary {
+    border-radius: $border-radius;
+  }
+  .result-summary-component-block-mobile {
+    display: flex;
+    width: max-content;
+    border-radius: $border-radius;
+    background-color: $white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+  }
+}

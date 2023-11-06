@@ -1,0 +1,23 @@
+@import '../variables.scss';
+
+.btn-block {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 2rem 0;
+    width:28.8rem;
+  height:6rem;
+  background-color: $dark-gray-blue;
+  border-color: $dark-gray-blue;
+  color: $white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 3rem;
+  &:hover {
+  background-color: $light-royal-blue-background;
+  border-color: $light-royal-blue-background;
+
+  }
+}

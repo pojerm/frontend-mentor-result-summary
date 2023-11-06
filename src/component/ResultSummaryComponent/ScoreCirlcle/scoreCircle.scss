@@ -1,0 +1,31 @@
+@import '../variables.scss';
+p {
+  margin: 0;
+  // maknes defaultnu marfinu na p elemnt
+}
+
+.circle {
+  background: linear-gradient($violet-blue-circle, $persian-blue-circle);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__label {
+    color: $white;
+    font-weight: 800;
+    font-size: 6rem;
+  }
+  &__score {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: $light-lavender;
+
+
+    
+  }
+}

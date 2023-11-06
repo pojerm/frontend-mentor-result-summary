@@ -1,0 +1,75 @@
+@import "../variables.scss";
+// varaibale uvezao
+p {
+  margin: 0;
+}
+
+.variant-1 {
+  background-color: $light-red-bg;
+  color: $light-red;
+
+}
+.variant-2 {
+  background-color: $orangey-yellow-bg;
+  color: $orangey-yellow;
+
+}
+.variant-3 {
+  background-color: $green-teal-bg;
+  color: $green-teal;
+
+}
+.variant-4 {
+  background-color: $cobalt-blue-bg;
+  color: $cobalt-blue;
+
+}
+
+.summary {
+  // width: 35.5rem;
+  display: flex;
+  margin-bottom: 1.5rem;
+  &-row {
+    // background-color: aqua;
+    border-radius: 10px;
+    padding: 10px 20px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-left {
+    display: flex;
+    align-items: center;
+  }
+  &-icon {
+    width: 21.5px;
+    height: 21.5px;
+  }
+  &-text {
+    margin-inline: 12px;
+    font-size: 18px;
+  }
+  &-fraction {
+    font-size: 1.8rem;
+    color: $dark-gray-blue;
+    &-first {
+      font-weight: 800;
+    }
+    &-second {
+      font-weight: 500;
+    }
+  }
+}
+// makne margin sa zadnjeg elementa 
+.last-summary-element {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  .summary {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+}
