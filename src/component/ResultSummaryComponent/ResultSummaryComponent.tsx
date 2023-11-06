@@ -24,25 +24,25 @@ const ResultSummaryComponent = () => {
         <TitleSecondary title="Summary" />
         <SummaryBlockVariant1
           text="Reaction"
-          iconSrc="src/assets/icon-reaction.svg"
+          iconSrc="/icon-reaction.svg"
           currentValue={80}
           maxValue={100}
         />
         <SummaryBlockVariant2
           text="Memory"
-          iconSrc="src/assets/icon-memory.svg"
+          iconSrc="/icon-memory.svg"
           currentValue={92}
           maxValue={100}
         />
         <SummaryBlockVariant3
           text="Verbal"
-          iconSrc="src/assets/icon-verbal.svg"
+          iconSrc="/icon-verbal.svg"
           currentValue={61}
           maxValue={100}
         />
         <SummaryBlockVariant4
           text="Visual"
-          iconSrc="src/assets/icon-visual.svg"
+          iconSrc="/icon-visual.svg"
           currentValue={72}
           maxValue={100}
         />
